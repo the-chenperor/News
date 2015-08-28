@@ -171,9 +171,9 @@ $(document).ready(function() {
 
   function displayAll() {
     var i = 0;
-    var squares = ["#News", "#Features", "#Opinions-Campus-Issues", "#Opinions-Nation-World", "#Arts-Leisure", "#Sports", "#Popular", "#Recent", "#Commented"];
+    var squares = ["#News", "#Features", "#Opinions-Campus-Issues", "#Opinions-Nation-World", "#Arts-Leisure", "#Sports"];
     for(i = 0; i < squares.length; i++) {
-      $(squares[i]).append("<div class='titles' style='font-weight:300;visibility:hidden;position:relative;bottom:120%;margin:10px;border:1px solid white;'><a class='headline' href='index.html' style='color:white;text-decoration:none;line-height:1;'></a><br><p class='author' style='color:white;'></p><p class='date' style='color:white;'></p></div><div class='circles' style='visibility:hidden;position:relative;bottom:120%;margin-left:auto;margin-right:auto;height:20px;width:100px;'><div class='c0' style='margin:5px;padding:5px;height:10px;width:10px;border-radius:25px;border:1px solid white;background-color:white;'></div><div class='c1' style='margin:5px;padding:5px;height:10px;width:10px;border-radius:25px;border:1px solid white;background-color:white;'></div><div class='c2' style='margin:5px;padding:5px;height:10px;width:10px;border-radius:25px;border:1px solid white;background-color:white;'></div></div>");
+      $(squares[i]).append("<div class='titles' style='font-weight:300;visibility:hidden;position:relative;bottom:115%;margin:10px;border:1px solid white;'><a class='headline' href='index.html' style='color:white;text-decoration:none;line-height:1;'></a><br><p class='author' style='color:white;'></p><p class='date' style='color:white;'></p></div><div class='circles' style='visibility:hidden;position:relative;bottom:115%;margin-left:auto;margin-right:auto;height:20px;width:100px;'><div class='c0' style='margin:5px;padding:5px;height:10px;width:10px;border-radius:25px;border:1px solid white;background-color:white;'></div><div class='c1' style='margin:5px;padding:5px;height:10px;width:10px;border-radius:25px;border:1px solid white;background-color:white;'></div><div class='c2' style='margin:5px;padding:5px;height:10px;width:10px;border-radius:25px;border:1px solid white;background-color:white;'></div></div>");
     }
   }
   displayAll();
